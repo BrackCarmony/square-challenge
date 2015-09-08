@@ -1,0 +1,45 @@
+body, html{
+  margin:0px;
+  background-color: mintcream;
+}
+
+.box{
+  width:100px;
+  height:100px;
+  display: inline-block;
+  border:1px black solid;
+  box-sizing: border-box;
+} 
+
+.selected{
+  background-color: red;
+}
+
+.arrowBox {
+  outline: 1px solid #555555;
+  margin: 0px;
+}
+
+.arrowBox div{
+  display:inline-block;
+}
+
+.box:first-child  .fa-arrow-left{
+  display:none;
+}
+
+.box:last-child  .fa-arrow-right{
+  display:none;
+}
+
+.row:first-child .fa-arrow-up{
+  display:none;
+}
+
+.row:last-child .fa-arrow-down{
+  display:none;
+}
+
+.div{
+  margin:0px;
+}
